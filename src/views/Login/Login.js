@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar';
+import './Login.css';
 
-export default function Home() {
+export default function Menu() {
   return (
     <>
     <Navbar/>
-    <h1>Home</h1>
+    <h1>Login Form</h1>
     </>
   )
 }
