@@ -1,0 +1,34 @@
+.box-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.poster-food{
+    display:inline-block;
+   
+    width: 95%;
+    padding: 0;
+    margin: 40px;
+   
+    
+    
+}
+.img-poster{
+    width: 100%;
+    height: 600px;
+}
+.text-center{
+    text-align: center;
+}
+.text-poster{
+    font-size: 50px;
+}
+.normal-text{
+    font-size: 20px;
+    color: rgb(73, 72, 72);
+    text-align: center;
+}
+.col-golden{
+    color: #eec78c;
+}
