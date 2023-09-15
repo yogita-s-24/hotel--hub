@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .box-1{
     display: flex;
     justify-content: space-evenly;
@@ -10,13 +14,18 @@
     width: 95%;
     padding: 0;
     margin: 40px;
+    text-align: center;
    
     
     
 }
+.font-20{
+    font-size: 21px;
+}
 .img-poster{
-    width: 100%;
+    width: 98%;
     height: 600px;
+    text-align: center;
 }
 .text-center{
     text-align: center;
@@ -28,6 +37,7 @@
     font-size: 20px;
     color: rgb(73, 72, 72);
     text-align: center;
+    margin: 20px;
 }
 .col-golden{
     color: #eec78c;
