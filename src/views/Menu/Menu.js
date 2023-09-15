@@ -8,7 +8,7 @@ export default function Menu() {
     <>
     <Navbar/>
     
-    <h1>Menu Page</h1>
+    
         <div className='poster-food'>
             <p className='text-poster col-golden'>Pushing The Work <br/>
             And The World Forward</p>
@@ -16,8 +16,8 @@ export default function Menu() {
             <img src='https://royel-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.ec6369bb.jpg&w=1920&q=75' className='img-poster' alt='image'/>
             <p className='normal-text '>We partner with content-driven tech startups to make them independent of their IT and empower them <br/> with a future-proof and scalable website. agenzia is the leading 3PL operator of the entire Central Asia, <br/> and the largest operator of the network of industrial logistic parks.</p>
 
-        </div>
-        <p className='text-center'>Food Menu</p>
+        </div> 
+        <p className='text-center font-20'>Food Menu</p>
         <p className='text-poster text-center col-golden'>Delicious Food Forever</p>
         <h1 className='text-center'>Salads</h1>
         <div className='box-1'>
