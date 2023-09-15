@@ -1,0 +1,21 @@
+.btn{
+    background-color:#eec78c ;
+    padding: 14px;
+    border-style: none;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.btn-outline{
+    background-color: white;
+    padding: 14px;
+    border: 1px solid #eec78c;
+    font-size: 18px;
+    margin: 15px;
+    width: 200px;
+}
+.btn-outline:hover{
+    background-color: #eec78c;
+}

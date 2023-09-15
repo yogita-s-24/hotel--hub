@@ -3,6 +3,14 @@ import './Button.css'
 
 export default function Button() {
   return (
-    <div>Button</div>
+    <>
+      <button className='btn'> Normal Button</button>
+    </>
   )
+}
+export function OutlineButton() {
+  return (
+    <button className='btn-outline'> OutlineButton</button>
+  )
+
 }
