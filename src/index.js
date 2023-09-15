@@ -12,6 +12,8 @@ import About from './views/About/About';
 import Contact from './views/Contact/Contact';
 import Login from './views/Login/Login';
 
+
+
 const router = createBrowserRouter ([
     {
       path:'/',
@@ -40,6 +42,13 @@ const router = createBrowserRouter ([
   ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<RouterProvider router={router}/>);
+root.render(
+  <>
+<RouterProvider router={router}/>
+
+
+</>
+
+);
 
 
