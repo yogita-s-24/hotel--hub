@@ -1,9 +1,10 @@
 .login-main-container{
-    display: flex;
+    display:flex;
     justify-content: center;
     /* background-image: url(./background-img.jpg); */
     /* background-size: cover; */
     background-color: #F8F5F0;
+
 }
 .login-card{
     height: 600px;
@@ -14,7 +15,8 @@
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px;
-    box-shadow:;
+    border-radius: 10px;
+    box-shadow: 0px 2px 30px 0px  #ccffee ;
 
 }
 .heading-1{
@@ -48,7 +50,7 @@
 .login-btn{
     height: 50px;
     width: 115px;
-    background-color: white;
+    background-color:#eec78c;
     border:0.4px solid #e6e6e6;
 }
 .login-sign{
@@ -57,7 +59,7 @@
     font-size: 16px;
 }
 .login-btn:hover{
-    background-color: #eec78c;
+    background-color: white;
 }
 
 
