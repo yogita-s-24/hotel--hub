@@ -43,8 +43,13 @@ export default function Home(){
             </div>
            </div>
 
-           <div className="Co">
-
+           <div className="contanier-home">
+                 <div className="card-1">
+                    
+                 </div>
+                 <div className="card-2">
+                    
+                 </div>
            </div>
         </>
      )
