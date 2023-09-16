@@ -8,7 +8,9 @@ export default function Menu() {
     <>
     <Navbar/>
     
-    
+       <div className='img-first'>
+        {/* <img  src='https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='img-first' /> */}
+       </div>
         <div className='poster-food'>
             <p className='text-poster col-golden'>Pushing The Work <br/>
             And The World Forward</p>
