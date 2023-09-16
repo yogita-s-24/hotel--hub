@@ -11,7 +11,7 @@ import Blog from './views/Blog/Blog';
 import About from './views/About/About';
 import Contact from './views/Contact/Contact';
 import Login from './views/Login/Login';
-
+import Sign from './views/Sign/Sign';
 
 
 const router = createBrowserRouter ([
@@ -38,6 +38,10 @@ const router = createBrowserRouter ([
     {
       path:'/login',
       element: <Login/>,
+    },
+    {
+      path:'/sign',
+      element: <Sign/>,
     },
   ])
 
