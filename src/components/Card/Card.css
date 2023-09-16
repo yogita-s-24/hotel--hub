@@ -4,13 +4,14 @@
     border-radius: 5px;
    display: inline-block;
    box-shadow: 0 2px 30px 0 black;
+  
 }
 .img-room{
     width: 350px;
     height: 400px;
 }
 .title-card{
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(123, 118, 118);
 }
 .price-card{
@@ -22,5 +23,9 @@
     background-color: white;
     margin-top: 15px;
     cursor: pointer;
+    background: transparent;
 
+}
+.btn-buynow:hover{
+    margin-left: 15px;
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar';
 import "./Home.css"
-import Card from "../../components/Card/Card"
-import Button from "../../components/Button/Button"
+// import Card from "../../components/Card/Card"
+// import Button from "../../components/Button/Button"
 export default function Home(){
      return(
         <>
@@ -61,7 +61,7 @@ export default function Home(){
                         
                     </div>
                     <div className='sub-card2 bg-color-subcard2'>
-                              <a href='tel:7563858453'> Contact:7563858453</a>
+                         <a href='tel:7563858453'> Contact:7563858453</a>
                     </div>
                  </div>
            </div>

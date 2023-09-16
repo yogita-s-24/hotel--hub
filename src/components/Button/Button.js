@@ -18,7 +18,12 @@ export function OutlineButton(btnOutline) {
 
 export function MenuButton({menuBtn}) {
   return (
-    <button onClick='("Do you want to confirm this order?")' className='btn'>{menuBtn} </button>
+    <button  className='btn'>{menuBtn} </button>
+  )
+}
+export function FootButton({footbtn}) {
+  return (
+    <button  className='btn-foot'>{footbtn} </button>
   )
 }
 

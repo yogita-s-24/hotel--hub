@@ -5,7 +5,7 @@ import "./Card.css";
 export default function Cards({star, image, title, price, button, night}) {
   return (
     <div className="card-container">
-      <p >{star}</p>
+      <p > {star}</p>
       <p className='title-card'>{title} </p>
       <p><b className='price-card'>{price}</b> <span>{night}</span></p>
       <div>
