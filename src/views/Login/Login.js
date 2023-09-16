@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar';
+import {Link} from 'react-router-dom';
 import './Login.css';
 
 export default function Menu() {
@@ -23,7 +24,7 @@ export default function Menu() {
            </input>
            <button type="submit" className="login-btn"><b>Submit</b></button>
            < p className="heading-2">Creat a new account ॽ </p>
-           <a className="login-sign" href="../../views/SignIn/Sign.js">Sign Up</a>
+           <Link className="login-sign" to="../../views/Sign/Sign.js">Sign Up</Link>
         </div>
     </div>
     </>
