@@ -2,15 +2,16 @@
 .heading-1{
     text-align: center;
     font-family: serif;
-    font-size: 85px !important;
+    font-size:85px !important;
 }
 .search-box{
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .search-label{
-    font-size: 33px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman';
 }
 .search-container{
     height: 50px;
