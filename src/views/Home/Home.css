@@ -109,18 +109,67 @@ body{
    color: black;
    font-size: 20px;
 }
+.home-details{
+    margin-top: 25rem ;
+    background:linear-gradient(rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.471)),url('https://www.99acres.com/microsite/wp-content/blogs.dir/6161/files/2023/06/Platform-Bed-Designs.jpg');
+    height: 230vh;
+    width: 100%;
+    background-size: cover;
+    /* padding: 5rem; */
+
+    margin-bottom: 1rem;
+}
+.card-container{
+    background-color: #F8F5F0;
+   margin-top: 10rem;
+}
+.home-contanier{
+    display: flex;
+   
+    justify-content: space-evenly;
+    width: 100%;
+}
+.home-mid-text-container{
+    height: 30vh;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+    padding: 5px;
+}
+.home-mid-text-container-text{
+    text-align: center;
+    margin-top: 5rem;
+}
+.Home-text-mid{
+    font-size: 20px;
+}
+.text-home-mid{
+    font-size: 35px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
+  
+  /* section {
+    display: grid;
+  }
+   */
+  .cards-wrapper {
+    /* grid-column: center-start / -1; */
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    overflow: auto;
+    /* padding-bottom: 1rem; */
+    .card {
+      display: grid;
+      /* place-content: center; */
+      /* background-color: #d0f0ee; */
+      /* color: #15928A; */
+      /* font-size: 1.5rem; */
+      height: auto;
+      width: 100%;
+    }
+  }
 
 
 
