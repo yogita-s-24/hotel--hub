@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from '../../components/Navbar/Navbar';
 import {Link} from 'react-router-dom';
 import './Login.css';
-
 export default function Menu() {
   return (
     <>
@@ -22,7 +21,8 @@ export default function Menu() {
            </input>
            <input type=" conform" className="name-container" placeholder="Confirm your password">
            </input>
-           <button type="submit" className="login-btn"><b>Submit</b></button>
+           <button type="submit" className="login-btn"><b>Submit</b></button> 
+           
            < p className="heading-2">Creat a new account ॽ </p>
            <Link className="login-sign" to="../../views/Sign/Sign.js">Sign Up</Link>
         </div>
