@@ -1,0 +1,53 @@
+.sub-new{
+    display: inline-block;
+    border: 1px solid rgb(242, 240, 240);
+    padding: 20px;
+    margin-top: 20px;
+
+}
+.input-email{
+    /* border: none; */
+    height: 56px;
+    border-radius: 0px;
+    border-right: 2px solid black;
+    padding-left: 50px;
+    background-color: black;
+    /* border: 1px solid white; */
+   color: aliceblue;
+   border-bottom: 1px solid white;
+}
+
+.text-sub{
+    font-size: 20px;
+}
+.dis-flex{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    flex-wrap: wrap;
+    padding: 30px;
+    padding-top: 50px;
+    margin-top: 100px;
+    color:white;
+}
+
+.foot-sub{
+    border: 1px solid rgb(238, 232, 232) ;
+    width: 300px;
+}
+.foot-text{
+    font-size: 17px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    color: rgb(89, 89, 89);
+}
+
+.foot-text:hover{
+    color:burlywood;
+    margin-left: 10px;
+}
+.btn-reserve{
+    margin: 20px;
+
+}
