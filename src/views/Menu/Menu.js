@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar';
 import FoodCard from '../../components/FoodCard/FoodCard';
+import Footer from '../../components/Footer/Footer';
+import Card from './../../components/Card/Card'
 import './Menu.css';
 
 export default function Menu() {
@@ -9,7 +11,7 @@ export default function Menu() {
     <Navbar/>
     
        <div className='img-first'>
-        {/* <img  src='https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='img-first' /> */}
+        
        </div>
         <div className='poster-food'>
             <p className='text-poster col-golden'>Pushing The Work <br/>
@@ -72,6 +74,8 @@ export default function Menu() {
         <FoodCard imageurl={"https://royel-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstatars-5.051572f6.png&w=256&q=75"} titlt={"Vegetable Spring Roll"} description={"Romaine lettuce, croutons, parmigia"} price={"₹269"} />
         <FoodCard imageurl={"https://royel-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmain-dish-1.73c056e0.png&w=256&q=75"} titlt={"Shrimp Cocktail"} description={"Romaine lettuce, croutons, parmigia"} price={"₹399"} />
         </div>
+        <Card title={"hgdjhgjfdjshfjh" } image={"https://tse4.mm.bing.net/th?id=OIP.F1RqVfr_iq8GmEeb0T6A4QHaJu&pid=Api&P=0&h=180" } star={"bjhdfhasfh" } price={ "₹ 544"} night={"OFF 50%"} button={"buy now"}/>
+        <Footer/>
     </>
   )
 }
