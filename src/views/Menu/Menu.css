@@ -49,6 +49,9 @@
     height: 600px;
     width: 100%;
     opacity: 1.5;
-    
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
 
 }

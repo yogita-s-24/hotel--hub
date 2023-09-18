@@ -11,7 +11,10 @@ export default function Menu() {
     <Navbar/>
     
        <div className='img-first'>
-        
+       <br></br>
+        <h2>ROYEL HUB</h2><br></br><br></br><br></br><br></br>
+        <h5 className=''>The New Generation of Luxary</h5>
+        <h1>YOUR LUXURY IN THE CITY OF FLORENCE</h1>
        </div>
         <div className='poster-food'>
             <p className='text-poster col-golden'>Pushing The Work <br/>
@@ -74,7 +77,7 @@ export default function Menu() {
         <FoodCard imageurl={"https://royel-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstatars-5.051572f6.png&w=256&q=75"} titlt={"Vegetable Spring Roll"} description={"Romaine lettuce, croutons, parmigia"} price={"₹269"} />
         <FoodCard imageurl={"https://royel-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmain-dish-1.73c056e0.png&w=256&q=75"} titlt={"Shrimp Cocktail"} description={"Romaine lettuce, croutons, parmigia"} price={"₹399"} />
         </div>
-        <Card title={"hgdjhgjfdjshfjh" } image={"https://tse4.mm.bing.net/th?id=OIP.F1RqVfr_iq8GmEeb0T6A4QHaJu&pid=Api&P=0&h=180" } star={"bjhdfhasfh" } price={ "₹ 544"} night={"OFF 50%"} button={"buy now"}/>
+        
         <Footer/>
     </>
   )
