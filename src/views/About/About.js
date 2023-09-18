@@ -30,26 +30,26 @@ export default function About() {
         <p className="text-about">THE ROYEL PALACE AWARDS</p>
 
         <p className="heading-about">The Royel Palace Recognition</p>
-        
-        </div>
-        <div className="palacecard">
-        <PalaceCard  image={"https://royel-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.fd366d9f.png&w=256&q=75"} title={"Editor Choice For Best Hotel Brand For Services"}  year={"2020"} />
-        <PalaceCard  image={"https://royel-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.f20e389b.png&w=128&q=75"} title={"Best Hotel Brand In The World (Ranked 1st)"}  year={"2021"} />
-        <PalaceCard  image={"https://royel-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.1d3a36bf.png&w=256&q=75"} title={"Best City Hotel In The Asia (Ranked 1st)"}  year={"2022"} />
 
-
-        </div>
-       
-       
-        
-      
-
-      <div>
-
-       
+      </div>
+      <div className="palacecard">
+        <PalaceCard image={"https://royel-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.fd366d9f.png&w=256&q=75"} title={"Editor Choice For Best Hotel Brand For Services"} year={"2020"} />
+        <PalaceCard image={"https://royel-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.f20e389b.png&w=128&q=75"} title={"Best Hotel Brand In The World (Ranked 1st)"} year={"2021"} />
+        <PalaceCard image={"https://royel-react.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F3.1d3a36bf.png&w=256&q=75"} title={"Best City Hotel In The Asia (Ranked 1st)"} year={"2022"} />
       </div>
 
+      <div  className="container-quotes">
+       <p className="about-quotes"><br />
+        <i class="fa-solid fa-quote-left"></i>
+             <br/><br/>
+          The Best Hotel I’ve Ever Been Privileged Enough To Stay <br /> At. Gorgeous Building, And It Only Gets More Breath <br/>Taking.
+          <br/><br/>
+          <i class="fa-solid fa-quote-right"></i>
+        </p>
 
+        <p className="quoteswriter">John Wick <span>(Product Designner)</span></p>
+    
+      </div>
     </>
   );
 }

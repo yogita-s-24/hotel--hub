@@ -1,6 +1,6 @@
 .palacecard-container{
-    height: 480px;
-    width:490px;
+    height: 460px;
+    width:450px;
     border: 1px solid grey;
     background-color: white;
     margin-top: 70px;
@@ -16,7 +16,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 .priceyear{
     font-size: 25px;
