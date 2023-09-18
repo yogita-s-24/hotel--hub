@@ -4,6 +4,7 @@ import "./About.css";
 import ImageWelcome from "./About-imgs/welcome.png";
 import ImageHotelbooking from "./About-imgs/hotelbooking.png";
 import PalaceCard from "../../components/PalaceCard/PalaceCard";
+import Footer from "../../components/Footer/Footer";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function About() {
@@ -50,6 +51,8 @@ export default function About() {
         <p className="quoteswriter">John Wick <span>(Product Designner)</span></p>
     
       </div>
+
+      <Footer/>
     </>
   );
 }

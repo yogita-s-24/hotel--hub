@@ -38,7 +38,7 @@
 .about-quotes{
     font-size: 45px;
     margin-top: 70px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 .palacecard{
     display: flex;
@@ -47,10 +47,11 @@
 }
 .container-quotes{
     text-align: center;   
+    margin-bottom: 100px;
 }
 .quoteswriter{
     font-size: 27px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 .quoteswriter span{
     color: grey;
