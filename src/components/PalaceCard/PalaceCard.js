@@ -8,7 +8,7 @@ export default function PalaceCard({image, title, year,}) {
                 <img className="palaceimage" src ={image} alt="palaceimages"/>
             </div>
             
-        <p className='titlepalace'> {title}</p>
+        <p className='titlepalace'> {title} </p>
         <p className='priceyear'> {year} </p>
 
 
