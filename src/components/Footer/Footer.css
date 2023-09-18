@@ -1,6 +1,6 @@
 .sub-new{
     display: inline-block;
-    border: 1px solid rgb(242, 240, 240);
+    border: 0.5px solid rgb(114, 113, 113);
     padding: 20px;
     margin-top: 20px;
 
@@ -14,11 +14,19 @@
     background-color: black;
     /* border: 1px solid white; */
    color: aliceblue;
-   border-bottom: 1px solid white;
+   background-color: rgb(39, 40, 40);
 }
 
 .text-sub{
     font-size: 20px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+.text-sub:hover{
+    background-color: #eec78c;
+    color: black;
+
 }
 .dis-flex{
     display: flex;
@@ -32,8 +40,8 @@
 }
 
 .foot-sub{
-    border: 1px solid rgb(238, 232, 232) ;
-    width: 300px;
+    /* border: 1px solid rgb(238, 232, 232) ; */
+    padding: 30px;
 }
 .foot-text{
     font-size: 17px;
@@ -49,5 +57,17 @@
 }
 .btn-reserve{
     margin: 20px;
-
+    
+}
+.foot-sub1{
+    /* border: 1px solid rgb(238, 232, 232) ; */
+    width: 200px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.foot-sub2{
+    /* border: 1px solid rgb(238, 232, 232) ; */
+    width: 350px;
+    padding: 20px;
+    margin-top: 10px;
 }
