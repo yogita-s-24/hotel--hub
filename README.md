@@ -2,7 +2,7 @@
 
 Hotel Hub is a web-based application that simplifies hotel management and booking processes for both hotel owners and guests.
 
-## Table of Contents
+## Contents
 - Introduction
 - Features
 - Usage
